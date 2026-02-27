@@ -1,15 +1,4 @@
-import { Stack } from "expo-router";
-
-export default function layout() {
-  return (
-    <Stack>
-      <Stack.Screen
-        name="index"
-        options={{
-          headerTitle: "Home",
-          headerShown: false,
-        }}
-      />
-    </Stack>
-  );
+import { Slot } from "expo-router";
+export default function Layout() {
+  return <Slot />;
 }

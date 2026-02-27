@@ -42,4 +42,11 @@ export const styles = StyleSheet.create({
     fontSize: 14,
     marginTop: 20,
   },
+  ImgBck: {
+    flex: 1,
+    width: "100%",
+    height: "100%",
+    position: "absolute",
+    opacity: 0.4,
+  },
 });
